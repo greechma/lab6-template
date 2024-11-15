@@ -1,0 +1,213 @@
+test_0 (__main__.lab6a.test_0)
+[Lab 6] - [Investigation 1] - [Part 2] - Creating Classes - Test for file creation: ./lab6a.py ... ok
+test_a (__main__.lab6a.test_a)
+[Lab 6] - [Investigation 1] - [Part 2] - Creating a Class - Test for errors running: ./lab6a.py ... FAIL
+test_a1 (__main__.lab6a.test_a1)
+[Lab 6] - [Investigation 1] - [Part 2] - Creating Classes - Test for correct shebang line: ./lab6a.py ... ok
+test_a_instantiate_class_0 (__main__.lab6a.test_a_instantiate_class_0)
+[Lab 6] - [Investigation 1] - [Part 2] - Creating Classes - instantiating object with 0 arguments fails ... ok
+test_a_instantiate_class_1 (__main__.lab6a.test_a_instantiate_class_1)
+[Lab 6] - [Investigation 1] - [Part 2] - Creating Classes - instantiating object with 1 arguments fails ... ok
+test_b1_displayStudent (__main__.lab6a.test_b1_displayStudent)
+[Lab 6] - [Investigation 1] - [Part 2] - Creating Classes - displayStudent() provides the correct output ... FAIL
+test_b2_displayStudent (__main__.lab6a.test_b2_displayStudent)
+[Lab 6] - [Investigation 1] - [Part 2] - Creating Classes - displayStudent() does not fail if self.number is an integer ... FAIL
+test_c_displayStudent (__main__.lab6a.test_c_displayStudent)
+[Lab 6] - [Investigation 1] - [Part 2] - Creating Classes - displayStudent() does not fail if self.number is an integer ... FAIL
+test_d_displayGPA (__main__.lab6a.test_d_displayGPA)
+[Lab 6] - [Investigation 1] - [Part 2] - Creating Classes - displayGPA() provides the correct output ... FAIL
+test_e_displayGPA (__main__.lab6a.test_e_displayGPA)
+[Lab 6] - [Investigation 1] - [Part 2] - Creating Classes - displayGPA() handles ZeroDivisionError successfully ... FAIL
+test_f_displayGPA (__main__.lab6a.test_f_displayGPA)
+[Lab 6] - [Investigation 1] - [Part 2] - Creating Classes - displayGPA() handles ZeroDivisionError successfully ... FAIL
+test_g1_displayCourses (__main__.lab6a.test_g1_displayCourses)
+[Lab 6] - [Investigation 1] - [Part 2] - Creating Classes - displayCourses() provides the correct output ... FAIL
+test_g2_displayCourses (__main__.lab6a.test_g2_displayCourses)
+[Lab 6] - [Investigation 1] - [Part 2] - Creating Classes - displayCourses() provides the correct output ... FAIL
+test_h_displayCourses (__main__.lab6a.test_h_displayCourses)
+[Lab 6] - [Investigation 1] - [Part 2] - Creating Classes - displayCourses() provides the correct output ... FAIL
+
+======================================================================
+FAIL: test_a (__main__.lab6a.test_a)
+[Lab 6] - [Investigation 1] - [Part 2] - Creating a Class - Test for errors running: ./lab6a.py
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ggairhe/ops445/lab6/./CheckLab6.py", line 45, in test_a
+    self.assertEqual(return_code, 0, msg=error_output)
+AssertionError: 1 != 0 : your program exited with a error(HINT: make sure you copied the script exactly!)
+
+======================================================================
+FAIL: test_b1_displayStudent (__main__.lab6a.test_b1_displayStudent)
+[Lab 6] - [Investigation 1] - [Part 2] - Creating Classes - displayStudent() provides the correct output
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ggairhe/ops445/lab6/./CheckLab6.py", line 72, in test_b1_displayStudent
+    import lab6a as lab6aStudent
+  File "/home/ggairhe/ops445/lab6/lab6a.py", line 21
+    def displayGPA(self):
+                         ^
+IndentationError: unindent does not match any outer indentation level
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ggairhe/ops445/lab6/./CheckLab6.py", line 76, in test_b1_displayStudent
+    self.fail(error_fail)
+AssertionError: lab6a.py contains errors(HINT: run the script and fix errors)
+
+======================================================================
+FAIL: test_b2_displayStudent (__main__.lab6a.test_b2_displayStudent)
+[Lab 6] - [Investigation 1] - [Part 2] - Creating Classes - displayStudent() does not fail if self.number is an integer
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ggairhe/ops445/lab6/./CheckLab6.py", line 85, in test_b2_displayStudent
+    import lab6a as lab6aStudent
+  File "/home/ggairhe/ops445/lab6/lab6a.py", line 21
+    def displayGPA(self):
+                         ^
+IndentationError: unindent does not match any outer indentation level
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ggairhe/ops445/lab6/./CheckLab6.py", line 89, in test_b2_displayStudent
+    self.fail(error_fail)
+AssertionError: lab6a.py contains errors(HINT: run the script and fix errors)
+
+======================================================================
+FAIL: test_c_displayStudent (__main__.lab6a.test_c_displayStudent)
+[Lab 6] - [Investigation 1] - [Part 2] - Creating Classes - displayStudent() does not fail if self.number is an integer
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ggairhe/ops445/lab6/./CheckLab6.py", line 98, in test_c_displayStudent
+    import lab6a as lab6aStudent
+  File "/home/ggairhe/ops445/lab6/lab6a.py", line 21
+    def displayGPA(self):
+                         ^
+IndentationError: unindent does not match any outer indentation level
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ggairhe/ops445/lab6/./CheckLab6.py", line 102, in test_c_displayStudent
+    self.fail(error_fail)
+AssertionError: lab6a.py contains errors(HINT: run the script and fix errors)
+
+======================================================================
+FAIL: test_d_displayGPA (__main__.lab6a.test_d_displayGPA)
+[Lab 6] - [Investigation 1] - [Part 2] - Creating Classes - displayGPA() provides the correct output
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ggairhe/ops445/lab6/./CheckLab6.py", line 111, in test_d_displayGPA
+    import lab6a as lab6aStudent
+  File "/home/ggairhe/ops445/lab6/lab6a.py", line 21
+    def displayGPA(self):
+                         ^
+IndentationError: unindent does not match any outer indentation level
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ggairhe/ops445/lab6/./CheckLab6.py", line 117, in test_d_displayGPA
+    self.fail(error_fail)
+AssertionError: lab6a.py contains errors(HINT: run the script and fix errors)
+
+======================================================================
+FAIL: test_e_displayGPA (__main__.lab6a.test_e_displayGPA)
+[Lab 6] - [Investigation 1] - [Part 2] - Creating Classes - displayGPA() handles ZeroDivisionError successfully
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ggairhe/ops445/lab6/./CheckLab6.py", line 126, in test_e_displayGPA
+    import lab6a as lab6aStudent
+  File "/home/ggairhe/ops445/lab6/lab6a.py", line 21
+    def displayGPA(self):
+                         ^
+IndentationError: unindent does not match any outer indentation level
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ggairhe/ops445/lab6/./CheckLab6.py", line 130, in test_e_displayGPA
+    self.fail(error_fail)
+AssertionError: lab6a.py contains errors(HINT: run the script and fix errors)
+
+======================================================================
+FAIL: test_f_displayGPA (__main__.lab6a.test_f_displayGPA)
+[Lab 6] - [Investigation 1] - [Part 2] - Creating Classes - displayGPA() handles ZeroDivisionError successfully
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ggairhe/ops445/lab6/./CheckLab6.py", line 139, in test_f_displayGPA
+    import lab6a as lab6aStudent
+  File "/home/ggairhe/ops445/lab6/lab6a.py", line 21
+    def displayGPA(self):
+                         ^
+IndentationError: unindent does not match any outer indentation level
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ggairhe/ops445/lab6/./CheckLab6.py", line 145, in test_f_displayGPA
+    self.fail(error_fail)
+AssertionError: lab6a.py contains errors(HINT: run the script and fix errors)
+
+======================================================================
+FAIL: test_g1_displayCourses (__main__.lab6a.test_g1_displayCourses)
+[Lab 6] - [Investigation 1] - [Part 2] - Creating Classes - displayCourses() provides the correct output
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ggairhe/ops445/lab6/./CheckLab6.py", line 154, in test_g1_displayCourses
+    import lab6a as lab6aStudent
+  File "/home/ggairhe/ops445/lab6/lab6a.py", line 21
+    def displayGPA(self):
+                         ^
+IndentationError: unindent does not match any outer indentation level
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ggairhe/ops445/lab6/./CheckLab6.py", line 158, in test_g1_displayCourses
+    self.fail(error_fail)
+AssertionError: lab6a.py contains errors(HINT: error occurs when addGrade() never gets run)
+
+======================================================================
+FAIL: test_g2_displayCourses (__main__.lab6a.test_g2_displayCourses)
+[Lab 6] - [Investigation 1] - [Part 2] - Creating Classes - displayCourses() provides the correct output
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ggairhe/ops445/lab6/./CheckLab6.py", line 167, in test_g2_displayCourses
+    import lab6a as lab6aStudent
+  File "/home/ggairhe/ops445/lab6/lab6a.py", line 21
+    def displayGPA(self):
+                         ^
+IndentationError: unindent does not match any outer indentation level
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ggairhe/ops445/lab6/./CheckLab6.py", line 173, in test_g2_displayCourses
+    self.fail(error_fail)
+AssertionError: lab6a.py contains errors(HINT: run the script and fix errors)
+
+======================================================================
+FAIL: test_h_displayCourses (__main__.lab6a.test_h_displayCourses)
+[Lab 6] - [Investigation 1] - [Part 2] - Creating Classes - displayCourses() provides the correct output
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ggairhe/ops445/lab6/./CheckLab6.py", line 182, in test_h_displayCourses
+    import lab6a as lab6aStudent
+  File "/home/ggairhe/ops445/lab6/lab6a.py", line 21
+    def displayGPA(self):
+                         ^
+IndentationError: unindent does not match any outer indentation level
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ggairhe/ops445/lab6/./CheckLab6.py", line 190, in test_h_displayCourses
+    self.fail(error_fail)
+AssertionError: lab6a.py contains errors(HINT: run the script and fix errors)
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.066s
+
+FAILED (failures=10)
